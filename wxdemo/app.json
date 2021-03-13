@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/search/search",
     "pages/my/my",
     "pages/index/index",
     "pages/my/smrz/smrz",
     "pages/send/send",
-    "pages/search/search",
     "pages/my/wddyq/wddyq"
   ],
   "window": {
@@ -47,4 +47,5 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
+  
 }

@@ -1,11 +1,27 @@
 <view class=""></view>
 <view class="head">
-  <input type="text" class="head_input" placeholder="请输入快递单号查询" placeholder-class="head_inputplaceholder" />
+  <input type="text" class="head_input" placeholder="请输入快递单号查询" placeholder-class="head_inputplaceholder"
+    bindconfirm="search" />
   <image class="head_inputicon" src="../../resourse/scancode-icon.png"></image>
 </view>
 <view class="body">
-  <view class="notfound">
+  <view class="notfound" wx:if="{{!show}}">
     <image class="notfound_img" src="../../resourse/notfound-img.png"></image>
     <text class="notfound_text">抱歉，还没有查询到您的快递哦～～</text>
+  </view>
+  <view class="info" wx:if="{{show}}">
+    <view class="info_head">
+      <image class="info_com_pic" src="{{logoUrl}}"></image>
+      <view class="info_mailno">
+        <text class="info_mailno_title">{{expTextName}}</text>
+        <text class="info_mailno_text">{{tel}}</text>
+      </view>
+
+    </view>
+    <view class="info_body" wx:for="{{mailinfolist}}" wx:key="time">
+      <text class="info_body_time">{{item.time}}</text>
+      <text class="info_body_context">{{item.context}}</text>
+      
+    </view>
   </view>
 </view>

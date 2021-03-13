@@ -56,3 +56,67 @@
   color: #999999;
   letter-spacing: -0.58rpx;
 }
+
+/* mailInfo */
+.info_head {
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+}
+.info_com_pic {
+  width: 300rpx;
+  height: 120rpx;
+}
+.info_mailno {
+  flex: 1;
+  display: flex;
+  margin-left: 50rpx;
+  flex-direction: column;
+}
+.info_mailno_title {
+  margin-bottom: 16rpx;
+  font-family: Helvetica;
+  line-height: 32rpx;
+  font-weight: 700;
+  font-size: 32rpx;
+  color: #444444;
+  letter-spacing: -0.58rpx;
+}
+.info_mailno_text {
+  font-family: Helvetica;
+  line-height: 24rpx;
+  font-size: 24rpx;
+  color: #999999;
+  letter-spacing: -0.58rpx;
+}
+/* mailInfo body */
+.info_body {
+  display: flex;
+  flex-direction: column;
+  width: 710rpx;
+  margin: 0 20rpx 20rpx 20rpx;
+  border-radius: 8rpx;
+  border: 2rpx solid #35BD00 ;
+
+  
+}
+.info_body_time {
+  height: 32rpx;
+  padding-left: 20rpx;
+  border-bottom: 2rpx dotted #ccc;
+  font-family: Helvetica;
+  line-height: 24rpx;
+  font-size: 24rpx;
+  color: #999999;
+  letter-spacing: -0.58rpx;
+}
+.info_body_context {
+  flex: 1;
+  padding: 20rpx 20rpx;
+  font-family: Helvetica;
+  line-height: 24rpx;
+  font-size: 18rpx;
+  color: #999999;
+  letter-spacing: -0.2rpx;
+}
