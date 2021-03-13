@@ -1,0 +1,82 @@
+.my {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #F4F6FA;
+}
+.head {
+  position: relative;
+  width: 750rpx;
+  height: 240rpx;
+  background-color: #35BD00;
+}
+.head_user {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  margin-top: -78rpx;
+  justify-content: center;
+  align-items: center;
+  width: 750rpx;
+  height: 156rpx;
+}
+.head_user_img {
+  width: 92rpx;
+  height: 92rpx;
+}
+.head_user_info {
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 80rpx;
+  margin-left: 23rpx;
+}
+.head_user_info_name {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  letter-spacing: -0.68rpx;
+}
+.head_user_info_dcl {
+  font-family: Helvetica;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  letter-spacing: -0.58rpx;
+}
+.head_user_arrow {
+  width: 16rpx;
+  height: 30rpx;
+  margin-left: 229rpx;
+}
+/* menu */
+.menu {
+  margin-top: 40rpx;
+}
+.menu_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 750rpx;
+  height: 108rpx;
+  border-bottom: 2rpx solid rgb(224, 224, 224);
+  background-color: #fff;
+}
+.menu_item_icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 64rpx;
+  margin-right: 80rpx;
+}
+.menu_item_text {
+  flex: 1;
+  width: 40rpx;
+  height: 20rpx;
+  font-family: Helvetica;
+  font-size: 28rpx;
+  color: #626161;
+  line-height: 20rpx;
+  letter-spacing: -0.68rpx;
+}

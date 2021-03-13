@@ -1,0 +1,30 @@
+<view class="wrap">
+  <image class="banner" src="../../resourse/banner.png"></image>
+  <text class='cykdy'>常用快递员</text>
+  <view class="yjjc">
+    <image class="yjjc_img" src="../../resourse/portrait-img.png"></image>
+    <view class="yjjc_info">
+
+      <view class="yjjc_info1">
+        <text class="yjjc_name">慕慕</text>
+        <text class="yjjc_tel">15173192581</text>
+      </view>
+      <view class="yjjc_info2">
+        <text class="yjjc_company">东风快递</text>
+        <text class="yjjc_adress">长沙黄花机场</text>
+      </view>
+
+    </view>
+    <view class="yjjc_btn">
+      <image class="yjjc_btn_img" src="../../resourse/mail-icon.png"></image>
+      <text class="yjjc_btn_text">一键寄出</text>
+    </view>
+  </view>
+  <view class="wddd">
+    <image class="wddd_img" src="../../resourse/wddd-img.png"></image>
+    <view class="wddd_btn">
+      <image class="wddd_btn_img" src="../../resourse/wddd-icon.png"></image>
+      <text class="wddd_btn_text">我的订单</text>
+    </view>
+  </view>
+</view>

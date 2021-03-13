@@ -1,0 +1,22 @@
+<view class="smrz">
+  <view class="menu">
+    <text class="menu_title">姓名</text>
+    <input class="menu_text" type="text" value="{{name}}" bindinput="handleNameInput"/>
+  </view>
+  <view class="menu">
+    <text class="menu_title">证件号码</text>
+    <input class="menu_text" type="text" value="{{idnumber}}" bindinput="handleIdNumberInput"/>
+  </view>
+  <view class="menu">
+    <text class="menu_title">证件照片</text>
+    <view class="idimage_container" bindtap="uploadIdImageL">
+      <image class="idimage_1" src="{{idimageurllist[0]}}"></image>
+      <image class="idimage_2" src="{{idimageurllist[1]}}"></image>
+    </view>
+  </view>
+  <view class="menu">
+    <text class="menu_title">手机号码</text>
+    <input class="menu_text" type="text" value="15173192581" bindinput="handleTelInput"/>
+  </view>
+  <view class="smrz_btn" bindtap="submit">提交</view>
+</view>

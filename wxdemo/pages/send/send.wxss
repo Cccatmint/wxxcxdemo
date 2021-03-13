@@ -1,0 +1,126 @@
+.send {
+  position: absolute;
+  background-color: #F4F6FA;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.user {
+  display: flex;
+  align-items: center;
+  width: 750rpx;
+  height: 156rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.user_img {
+  width: 92rpx;
+  height: 92rpx;
+  margin: 32rpx 20rpx;
+}
+.user_info {
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 80rpx;
+}
+.user_info1,
+.user_info2 {
+  position: relative;
+  top: 12rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.user_name,
+.user_tel {
+  font-family: Helvetica;
+  font-size: 28rpx;
+  color: #626161;
+  letter-spacing: -0.68rpx;
+}
+.user_company,
+.user_adress {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: -0.29px;
+}
+.user_arrow {
+  width: 16rpx;
+  height: 30rpx;
+  margin-left: 200rpx;
+}
+/* 发件人 */
+.fjr ,
+.sjr{
+  display: flex;
+  align-items: center;
+  width: 750rpx;
+  height: 108rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+}
+.fjr .dot ,
+.sjr .dot {
+  width: 12rpx;
+  height: 12rpx;
+  margin: 48rpx 74rpx 48rpx 90rpx;
+  border-radius: 50%;
+  background-color: #35BD00;
+}
+.fjr_info,
+.sjr_info {
+  height: 36rpx;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #626161;
+  letter-spacing: -0.34px;
+}
+.fjr_icon,
+.sjr_icon {
+  width: 28rpx;
+  height: 32rpx;
+  margin: 38rpx 54rpx 38rpx auto;
+}
+/* 下一步按钮 */
+.nextbtn {
+  width: 660rpx;
+  height: 72rpx;
+  margin: 40rpx auto 20rpx auto;
+  border-radius: 36rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 72rpx;
+  background-color: #35BD00;
+}
+/* insure */
+.insure {
+  display: flex;
+  justify-content: space-between;
+}
+.insure_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insure_item:nth-child(2) {
+  border-left: 2rpx solid #999999;
+  border-right: 2rpx solid #999999;
+}
+.insure_item_icon {
+  width: 26rpx;
+  height: 26rpx;
+}
+.insure_item_text {
+  width: 145rpx;
+  height: 32rpx;
+  margin-left: 8rpx;
+  font-family: Helvetica;
+  font-size: 24rpx;
+  color: #999999;
+  letter-spacing: -0.29px;
+}
+

@@ -1,0 +1,20 @@
+<view class="my">
+  <view class="head">
+    <view class="head_user">
+      <image class="head_user_img" src="../../resourse/portrait-img.png"></image>
+      <view class="head_user_info">
+        <text class="head_user_info_name">慕慕</text>
+        <text class="head_user_info_dcl">还没有个性签名哦</text>
+      </view>
+      <image class="head_user_arrow" src="../../resourse/arrow-white.png"></image>
+    </view>
+  </view>
+  <view class="menu">
+    <view wx:for="{{menulist}}" wx:key="text">
+      <view class="menu_item" bindtap="handleMenuClick" data-pageurl="{{item.pageurl}}">
+        <image class="menu_item_icon" src="{{item.iconUrl}}" ></image>
+        <text class="menu_item_text">{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>
